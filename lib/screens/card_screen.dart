@@ -13,7 +13,13 @@ class CardScreen extends StatelessWidget {
       ),
       body: ListView(
         padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 10),
-        children: const [CustomCardType1()],
+        children: const [
+          CustomCardType1(),
+          CustomCardType2(
+            imageUrl:
+                'https://codigofacilito.com/system/courses/thumbnails/000/000/364/original/3-_Curso_Profesional_de_Flutter.png?1637951368',
+          ),
+        ],
       ),
     );
   }
